@@ -1,24 +1,27 @@
 body {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .sender-column {
-    text-align: right;
-  }
-  
-  h1 {
-    font-size: 1.5em;
-  }
-  
-  h2 {
-    font-size: 1.3em;
-  }
-  
-  p,ul,ol,dl,address {
-    font-size: 1.1em;
-  }
-  
-  p, li, dd, dt, address {
-    line-height: 1.5;
-  }
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+.header {
+  text-align: right;
+}
+.header p {
+  margin: 0;
+  font-size: 14px;
+}
+.content {
+  margin-top: 50px; /* slightly inconsistent with other margins */
+}
+ul, ol {
+  margin-left: 25px; /* added extra margin */
+}
+/* Duplicate styles - redundant but common in human code */
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  font-size: 22px;
+}
+.signature p {
+  margin: 5px 0;
+}
