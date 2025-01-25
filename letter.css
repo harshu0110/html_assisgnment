@@ -9,19 +9,3 @@ body {
   margin: 0;
   font-size: 14px;
 }
-.content {
-  margin-top: 50px; /* slightly inconsistent with other margins */
-}
-ul, ol {
-  margin-left: 25px; /* added extra margin */
-}
-/* Duplicate styles - redundant but common in human code */
-h1, h2, h3 {
-  font-family: Arial, sans-serif;
-}
-h1 {
-  font-size: 22px;
-}
-.signature p {
-  margin: 5px 0;
-}
